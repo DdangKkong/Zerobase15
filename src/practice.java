@@ -1,6 +1,19 @@
+
+
 //public class practice {
 //}
 //public class practice {
+
+/*
+        이원우
+*/
+
+//public class WWjavastudy03 {
+//    public static void main(String[] args) {
+//
+//    }
+//}
+
 // int age = 20;
 // int는 integer를 말하며 정수형 변수
 // system.out.println(age);
