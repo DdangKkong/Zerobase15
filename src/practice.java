@@ -123,6 +123,12 @@
         Stream 변수 생성 후 / System.out.println(변수.reduce((x, y) -> x + y).get()); 요거는 연쇄적으로 합을 구한 값을 알려줘
         builder()~~~ 로 변수1을 세팅한 뒤에 IntStream 변수2 = 변수1.sorted() 하면 순서대로 세팅
 
+    HashSet
+
+    for each
+
+    Math 클래스 (Math.~~~)
+
 
 
 
