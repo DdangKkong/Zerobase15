@@ -13,21 +13,24 @@ public class WW2java01 {
             A[i] = Integer.parseInt(st[i]);
         }
 
-        if (n <= 4) {
-            System.out.println("YES");
-        }
-
-        int j = 0;
-        for (int i = 1; i <= n / 4; i++) {
-            j++;
-        }
-
+        int s1 = 0;
+        int s2 = 0;
+        int s3 = 0;
+        int s4 = 0;
         boolean result = true;
-        for (int i = 0; i < j; i++) {
-            int search1 = linearSearch(A, n - i);
-            if (search1 < n - 4 * (i+1)) {
-                System.out.println("NO");
+
+        for (int i = 0; i < n; i++) {
+            if (s1 < A[i]) {
+                s1 = A[i];
+            } else if (s2 < A[i]) {
+                s2 = A[i];
+            } else if (s3 < A[i]) {
+                s3 = A[i];
+            } else if (s4 < A[i]) {
+                s4 = A[i];
+            } else {
                 result = false;
+                System.out.println("NO");
                 break;
             }
         }
@@ -36,13 +39,5 @@ public class WW2java01 {
         }
 
     }
-
-    public static int linearSearch(Integer[] array, int value) {
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == value) {
-                return i;
-            }
-        }
-        return -1;
-    }
 }
+
