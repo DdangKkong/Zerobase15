@@ -6,7 +6,7 @@ import static com.sun.org.apache.xalan.internal.xsltc.compiler.sym.error;
 
 public class WW3javatest13 {
     public static void main(String[] args) {
-        solution("-3+26-7+28");
+//        solution("-3+26-7+28");
     }
 
 //    public int solution(String S) {
