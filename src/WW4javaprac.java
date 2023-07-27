@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 public class WW4javaprac {
 
     public static void main(String[] args) {
-        solution("AbcAbcA", "AAA");
+//        solution("AbcAbcA", "AAA");
     }
 
     public int solution(String str1, String str2) {
